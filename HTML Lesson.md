@@ -2,6 +2,16 @@
 
 There are three languages that are used to make a webpage: *HTML, CSS, and JavaScript*.
 
+## Table of Contents
+
+- [HTML](#html)
+  - [Tags](#commonly-used-tags)
+  - [Attributes](#attributes)
+- [CSS](#css)
+  - [Selectors](#types-of-selectors)
+  - [Properties](#common-properties)
+- [JavaScript](#javascript)
+
 ## HTML
 HTML defines the structure of a webpage.
 
@@ -87,7 +97,7 @@ selector {
 ```
 
 ### Types of Selectors
-##### tag name
+#### Tag Name
 - you just use the name of the tag like: `h1`, `p`, or `div`
   - you can even use `<html>` to apply a style to the whole page - good for setting the font-family
 - this will style all of that type of element on the page
@@ -105,7 +115,7 @@ h1 {
 }
 ```
 
-##### class
+#### Class
 - this is a name you create and add to the elements you would like to style
 - usually used to create a 'type' of object to reuse the same style on multiple elements
 - best to give it a descriptive name
@@ -124,7 +134,7 @@ h1 {
 }
 ```
 
-##### id
+#### ID
 - this is a name you give to a specific element on the page
 - it should only be given to one element - otherwise you probably want a class instead
 - prefix the id with a `#` (a hashtag) in CSS
@@ -145,7 +155,7 @@ h1 {
 - `width` and `height`
   - sets the size of an element
 - `font-family`
-  - sets the type of font (Helvetica, Times New Roman, etc.)
+  - sets the type of font (Helvetica, Times New Roman, sans-serif, etc.)
 - `font-size`
   - sets the size of the font-family
 - `color`
@@ -164,7 +174,7 @@ h1 {
 - `em`
   - based upon the default size of the font (usually 16px)
     - 1em = 16px (usually)
-    - Example: `margin: 1em;`
+  - Example: `margin: 1em;`
 - `px` pixels
   - based upon the number of pixels on your screen
   - different screen resolutions can cause problems
@@ -173,7 +183,17 @@ h1 {
 - `vh` vertical height
   - similar to `%` but is based on the vertical height of the page in the browser, not the size of the parent element
   - fairly new so not very common - but useful
-  - Example: `height: 100vh`
+  - Example: `height: 100vh;`
+
+#### Color values
+- you can just use common color names
+  - [Here](http://www.w3schools.com/colors/colors_names.asp) is a list of valid color names
+  - Ex. `color: blue;` or `color: darkorange;`
+- use a hex code
+  - this gives you many more color options
+  - starts with a `#` followed by 6 characters `[0-f]`
+  - [color-hex](http://www.color-hex.com) is a good website to find hex codes for colors.
+  - Ex. `color: #1e7e6c;`
 
 ## JavaScript
 
