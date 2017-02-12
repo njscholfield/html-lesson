@@ -1,0 +1,18 @@
+html {
+  font-family: sans-serif;
+}
+
+.demo-box {
+  height: 10em;
+  width: 10em;
+  background-color: green;
+  color: white;
+}
+
+#box1 {
+  margin: 1em;
+}
+
+#box2 {
+  padding: 1em;
+}
