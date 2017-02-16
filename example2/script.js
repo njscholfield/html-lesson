@@ -5,7 +5,7 @@
 
   function updateName(e) {
     if(input.value !== '') {
-      name.innerHTML = `Hello <span class="user">${input.value}</span>!`;
+      name.innerHTML = `Hello<span class="user">${' ' + input.value}</span>!`;
     } else {
       name.innerHTML = 'Enter your name in the box below';
     }
