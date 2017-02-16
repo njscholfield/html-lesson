@@ -28,3 +28,8 @@ Pick a theme you like from <a href="https://bootswatch.com" target="blank">Boots
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
 ```
+
+### Weather API
+`
+https://query.yahooapis.com/v1/public/yql?q=select%20item.condition%20from%20weather.forecast%20where%20woeid%20%3D%2012763654&format=json&env=store%3A%2F%2Fdatatables.org%2Falltableswithkeys
+`
