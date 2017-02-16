@@ -1,16 +1,57 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>JS Demo</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://noahscholfield.com/css/bootstrap-yeti.min.css">
   </head>
   <body>
-    <h1 id="name">Enter your name in the box below</h1>
-    <form>
-        <label>Enter your name:</label>
-        <input type="text" name="name">
-        <button type="submit">Submit</button>
-    </form>
+    <div class="jumbotron">
+      <div class="container">
+        <h1>JS Demo</h1>
+      </div>
+    </div>
+    <div class="container">
+      <ul class="nav nav-pills">
+        <li role="presentation" class="active"><a data-panel="0">Name</a></li>
+        <li role="presentation"><a data-panel="1">Weather</a></li>
+      </ul>
+
+      <!-- name section -->
+      <section id="0">
+        <h2 id="name">Enter your name in the box below</h2>
+        <form id="enterName">
+          <fieldset>
+            <div class="form-group">
+              <label for="name">Enter your name:</label>
+              <input class="form-control" type="text" name="name">
+            </div>
+          </fieldset>
+          <div class="form-group">
+            <button class="btn btn-primary" type="submit">Submit</button>
+          </div>
+        </form>
+      </section>
+      <!-- /name section -->
+
+      <!-- weather section -->
+      <section id="1" class="hidden">
+        <h2>Weather in Pittsburgh</h2>
+        <h1><span id="temp"></span>ºF</h1>
+        <h4 id="condition"></h4>
+        <h6>LAST UPDATED: <span id="timestamp"></span></h6>
+        <button id="toggleBtn" class="btn-link">Toggle Raw Data</button>
+        <div id="rawWeatherData" class="hidden">
+          <pre><code id="rawData"></code></pre>
+        </div>
+      </section>
+      <!-- /weather section -->
+
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fetch/2.0.2/fetch.min.js"></script>
+    <script src="name.js"></script>
     <script src="script.js"></script>
   </body>
 </html>
