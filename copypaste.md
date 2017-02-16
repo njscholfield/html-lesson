@@ -1,5 +1,9 @@
 # Copy Paste
 
+### Text Editor
+
+If you want a good text editor to use to make your webpage, I would recommend using [Atom](https://atom.io).
+
 ### `<head>` information
 
 ```html
@@ -7,6 +11,9 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 ```
+
+### Posting you web page on the Pitt server
+[Instructions](http://technology.pitt.edu/support/creating-your-own-web-site)
 
 ### Bootstrap
 Pick a theme you like from <a href="https://bootswatch.com" target="blank">Bootswatch</a>. Then replace the `{theme}` in the link below with the name of the theme you want (all lowercase).
