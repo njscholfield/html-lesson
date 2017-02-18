@@ -1,5 +1,8 @@
 # Copy Paste
 
+### Link to this GitHub Repo
+[https://git.io/vD7Gf](https://git.io/vD7Gf)
+
 ### Text Editor
 
 If you want a good text editor to use to make your webpage, I would recommend using [Atom](https://atom.io).
